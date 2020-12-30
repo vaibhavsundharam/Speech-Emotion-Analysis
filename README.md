@@ -64,9 +64,9 @@ In the project, we have employed cross-entropy loss. This criterion combines Log
 * Add your customized path in the variable "customized_path_to_project"
   * example: "/content/drive/MyDrive/Deep Learning/DL Project" 
 * Create Data directories as and copy data into their corresponding directories:
- * example: "/content/drive/MyDrive/Deep Learning/DL Project/RAVDESS" 
- * example: "/content/drive/MyDrive/Deep Learning/DL Project/SAVEE"
- * example: "/content/drive/MyDrive/Deep Learning/DL Project/TESS"
+  * example: "/content/drive/MyDrive/Deep Learning/DL Project/RAVDESS" 
+  * example: "/content/drive/MyDrive/Deep Learning/DL Project/SAVEE"
+  * example: "/content/drive/MyDrive/Deep Learning/DL Project/TESS"
  
  
   
