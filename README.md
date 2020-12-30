@@ -24,7 +24,7 @@ Figure (2) MFCC plots of a male and a female speaker showcasing angry emotion
 
 Mel spectrograms are calculated by taking the log of the frequency components obtained after the FFT of an audio signal and converting the amplitude of the audio signal to decibels. The frequency is mapped to the Mel scale using Eq. 1 [21]. Figure 3 shows the Mel spectrograms for a male and female audio showcasing the angry emotion. The difference between the acoustic features of a male and a female can also be seen from the aforementioned figure.
 
-![Figure 3](https://github.com/vaibhavsundharam/Speech-Emotion-Analysis/blob/main/Images/Figure_2.png?raw=true)
+![Figure 3](https://github.com/vaibhavsundharam/Speech-Emotion-Analysis/blob/main/Images/Figure_3.png?raw=true)
 Figure (3) Spectrograms of a male and female speaker showcasing ’angry’ emotion
 
 # Data Augmentation
