@@ -8,4 +8,4 @@ Datsets:  [SAVEE Dataset](https://www.kaggle.com/barelydedicated/savee-database)
 
 # Data pre-processing
 The classification network should be trained separately on male and female voices. This is because males and females have very different physiologic and acoustic features [17, 18]. For example, a female voice has a higher pitch as compared to a male as depicted in Figure 1. Hence, we separated male and female voices in the dataset. Each subset is then split into training, validation, and testing set in the ratio of 8:1:1.
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
