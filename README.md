@@ -43,6 +43,15 @@ Figure (4) Block diagram of the baseline model
 ## LSTM Model
 Recurrent neural networks (RNNs) were one of the first successful models deployed for natural language processing applications as they allow information to persist. This is useful, especially for sequential data like speech and language, where the prediction of the next word in the sentence/speech depends upon the phrases that came before. At each level inside an RNN, information from the previous layers gets transferred to the next layer. This information transfer creates a dependence between subsequent layers inside the network. But, RNNs fail to learn long-term dependencies, i.e. they perform poorly when the gap between relevant information and the place where it is required
 becomes large. Long-Short Term Memory (LSTM) [25, 26] networks with attention mechanisms were introduced to address some of the drawbacks of RNNs. LSTMs are also sequential models. But, unlike RNNs, they can selectively store and discard information that is important and not so important. In our implementation, we have used a network architecture inspired by bidirectional LSTMs** to perform the classification task. The network architecture of the model is depicted in Figure 5.
+
 ![Figure 5](https://github.com/vaibhavsundharam/Speech-Emotion-Analysis/blob/main/Images/Figure_5.png?raw=true)
+Figure (5) Block diagram of the LSTM based model
+
+## Transformer Model 
+Despite the success of LSTM in NLP tasks, it has its own set of problems. Firstly, LSTM networks are plagued by long-term dependence problem, similar to RNNs. Secondly, parallelization is not possible in RNNs and LSTMs because to process sequential data such as a sentence, word by word processing is required. To address the problem of parallelization, Transformers [22] were introduced. Transformers consist of an encoder, a decoder and have made use of multi-head attention layers and rely entirely on attention mechanism to extract global dependencies between input and outputs. Thus, our third implementation is based on Transformers** the block diagram of which is shown in Figure 6.
+
+![Figure 6](https://github.com/vaibhavsundharam/Speech-Emotion-Analysis/blob/main/Images/Figure_6.png?raw=true)
+Figure (6) Block diagram of the Transformer based model
 
 [**](https://github.com/Data-Science-kosta/Speech-Emotion-Classification-with-PyTorch)
+
