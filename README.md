@@ -55,3 +55,7 @@ Figure (6) Block diagram of the Transformer based model
 
 [**](https://github.com/Data-Science-kosta/Speech-Emotion-Classification-with-PyTorch)
 
+# Cost function, Performance Metric and Optimizer
+In the project, we have employed cross-entropy loss. This criterion combines LogSoftmax and NLLLoss. Cross entropy loss is a parameter that is used in classification models whose output is a probability ranging from zero to one. As the predicted probability of a class diverges from the ground truth, cross-entropy loss increases. According to [23], the loss can be defined as in Eq. 2.
+
+![Eq 2](https://github.com/vaibhavsundharam/Speech-Emotion-Analysis/blob/main/Images/Eq_2.png?raw=true)
