@@ -11,3 +11,10 @@ The classification network should be trained separately on male and female voice
 
 ![Figure 1](https://github.com/vaibhavsundharam/Speech-Emotion-Analysis/blob/main/Images/Figure_1.png?raw=true)
 Figure (1) Difference between the pitch of a male and a female voice actor enunciating the same dialog with the same emotion (angry)
+
+# Feature Extraction
+The first approach for extracting features from the voice signal was based on Fourier transforms. Unfortunately, this approach was flawed as Fourier transforms are not useful in showcasing how a human individual perceives sound. Hence, we decided to use Mel Frequency Cepstral Coefficients (MFCC) [19] and Mel Spectrograms [20]. Generally, we take the Fourier transform to decompose a time-domain signal into its frequency components. But, for calculating MFCC, the cosine transformation of the log of the magnitude of the Fourier spectrum is taken. Hence, the signal is neither in the time domain nor in the frequency domain, rather, it is in the quefrency domain [21] with its spectrum
+termed as cepstrum. Cepstrum gives us information about the rate of change of spectral bands. The vocal tract (including tongue, teeth, etc.) determines the sound generated and, the MFCC accurately represents the envelope of the time power spectrum of a speech signal which is a representation of the vocal tract. Figure 2a and Figure 2b represent the MFCC plots of a male and a female speaker respectively showcasing angry emotion. We can see that both plots look different hence affirming that males and females have different acoustic features [17, 18].
+\begin{equation}
+a =b
+\end{equation}
